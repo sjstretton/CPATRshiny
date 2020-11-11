@@ -1,0 +1,12 @@
+name: CPATRshiny
+title: CPATRshiny
+username:
+account: rtaw
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3211606
+bundleId: 3848624
+url: https://rtaw.shinyapps.io/CPATRshiny/
+when: 1605121809.53504
+asMultiple: FALSE
+asStatic: FALSE
