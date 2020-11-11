@@ -1,5 +1,11 @@
+library(tidyverse)
+library(readxl)
+library(magrittr)
+library(RColorBrewer)
+library(cowplot)
+library(ggrepel)
+library(CPATR)
 
-source("main.R")
 source("R/5-comparison/3-PostProcessing.R")
 source("R/5-comparison/4-ModelComparison.R")
 source("R/5-comparison/5-MakeGraphs.R")

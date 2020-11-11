@@ -17,7 +17,6 @@ gNumberOfYears <- 15L
 gEndYear <- gBaseYear+gNumberOfYears-1
 SelectedCarbonTax = 100
 CarbonTaxTrajectoryForm <- read_csv("R/2-preprocess/output/CarbonTaxTrajectoryForm.csv",col_types = "cd")  #Shape of Carbon Tax Trajectory is Currently Standardised
-#CarbonTaxInTime <-  CarbonTaxTrajectoryForm %>% mutate(CarbonTaxRate=ProportionOfMaxCTaxRate*SelectedCarbonTax)
 CTRange=seq(from=0, to=100, by=20)
 
 

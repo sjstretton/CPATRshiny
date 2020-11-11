@@ -1,5 +1,5 @@
 #rm(list=ls())
-#load(file="data/MainDataFile.rda")
+load(file="data/MainDataFile.rda")
 CountryCategoryList <- as_factor(c("VeryLarge","Large","MediumLarge","Medium","MediumSmall","Small","VerySmall"))
 CountriesTable <- read_csv("R/1-metadata/CountryLookup.csv")
 PJPerktoe <- 0.041868
