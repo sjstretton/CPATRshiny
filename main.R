@@ -1,4 +1,7 @@
 ## Purpose: This script contains the 'main function'.
+#Note: these global variables show as missing when the functions are run out of the box.
+#Perhaps there should be a 'set global functions' which would just run these first global variable setting elements,
+#perhaps taking them from a file (csv?)
 
 ################################### SETUP AND INPUT DATA ###################################
 library(tidyverse)
